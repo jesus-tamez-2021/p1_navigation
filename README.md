@@ -75,7 +75,7 @@ We have used two python programs to be called by the main Jupyter Notbook Deep Q
 
 The following output from the Jupyter Notbook execution shows the agent has been able to reach the goal of picking at least 13 yellow bananas in average for the last 100 episodes. This goal is reached in less than 500 episodes in total. We have found that each episode has a maximum of 299 steps.
 
-![Exmaple 1][image2]
+![Screenshot 1][image2]
 
 The chart shows a linear improvement of the 10-episodes average yellow bananas picked. Some of the hyper-parameters tried produced an slow down on the learning process after 300 episodes. We tried several hyper-parameters combinations adjusting the TAU, the GAMMA, and the Epsilon parameters; in addition to the Neural Network architecture.
 
