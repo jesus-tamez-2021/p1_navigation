@@ -1,7 +1,7 @@
 [//]: # (Image References)
 
 [image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
-[image2]: image2.png
+[image2]: https://github.com/jesus-tamez-2021/p1_navigation/blob/89c5023f40f9797ea4120bf1a916f5d1f4e52eb8/image2.PNG
 
 # Project 1: Navigation
 
