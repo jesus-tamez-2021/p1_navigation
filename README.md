@@ -58,6 +58,6 @@ We ran the Jupyter notebook from within VS Code. With the following steps:
 - Clone the repository with Git.
 - Use (or install) VS Code 1.61
 - Open the local (downloaded) folder in the VS Code explorer window.
-- Select the JT_Navigation.ipynb file.
+- Select the Navigation.ipynb file.
 - Execute each one of the cells, or all at once.
 - If the Unity Environment is properly installed, a Unity window will be opened, and you can see the agent collecting the yellow bananas and learning in each episode. Depending on the local computer configuration, this collection process could be executed very fast and difficult to appreciate for the human eye.
