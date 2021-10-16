@@ -22,11 +22,9 @@ The task is episodic, and in order to solve the environment, your agent must get
 ### Getting Started
 
 The first part of the project is to setup the proper development environment for python. We are using Anaconda to create a virtual environment that includes the following packages to be imported during the jupyter notebook execution:
-- random
 - torch
 - numpy
 - pandas
-- from collections import deque
 - matplotlib
   
 We included the Unity package called UnityEnvironment. Which is part of the unityagents library package installed using the pip command, as it's not available on the Anaconda channels.
