@@ -49,9 +49,15 @@ After several problems running the project without success to start the Unity En
 
 In addition, in order to be able to run and visualize the bananas environment, we have locally installed the Unity Hub 2.4.5, and installed a Unity personal license version 2020.3.18f1.
 
-### Instructions
-Create an Anaconda environment. Choose to use Python 3.6
-Install all the program dependencies mentioned in the previous paragraphs. Using the pip command, you can specify the package version to be installed (==, <, >=, etc.). If the packages have been installed through Anaconda, you can pull down the package version number and choose a different one to be used in the environment. If you have a different version installed by mistake, you can use pip to uninstall that version and the run pip again to install the right one.
+### Installation Instructions
+
+Create an Anaconda environment; choosing to use Python 3.6.
+
+Install all the program dependencies mentioned in the previous paragraphs.
+- Using the pip command, you can specify the package version to be installed (==, <, >=, etc.).
+- If the packages have been installed through Anaconda, you can pull down the package version number and choose a different one to be used in the environment.
+- If you have installed a different version using the pip command, you can use pip to uninstall that version and the run pip again to install the right version required.
+
 We ran the Jupyter notebook from within VS Code. With the following steps:
 - Clone the repository with Git.
 - Use (or install) VS Code 1.61
