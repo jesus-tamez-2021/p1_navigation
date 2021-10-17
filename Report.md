@@ -15,7 +15,7 @@ We have used two python programs to be called by the main Jupyter Notebook Deep 
       - The learn process uses a sampled "experience" of BATCH_SIZE samples taken randomly from the ReplayBuffer (not using the Prioritized Experience Replay).
       - This learning process is executed less often than the steps executed on the target network (by the UPDATE_EVERY steps factor).
       - From the sampled experience, this process finds the "target Q value" by adding the memorized "reward" to the discounted (by GAMMA) "target next" Q value (obtained by applying the memorized "next state" value on the target QNetwork).
-      - In addition, this function obtains the "Expecetd Q value" by using the memorized "state" on the local QNetwork, and selecting the Q Value corresponding to the memorized "action" from the ReplayBuffer memory.
+      - In addition, this function obtains the "Expected Q value" by using the memorized "state" on the local QNetwork, and selecting the Q Value corresponding to the memorized "action" from the ReplayBuffer memory.
       - The last part executes the local QNetwork Loss function calculation (mse_loss) based on the "Target Q Values" and the "Expected Q values", it then executes a local QNetwork back propagation, and one step of the local QNetwork optimizer function. This part updates the local Q Network parameters (weighs).
       - The final part in this function is to perform a soft_update of the target QNetwork parameters (weights).
     - soft-update
