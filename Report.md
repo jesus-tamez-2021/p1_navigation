@@ -19,7 +19,6 @@ We have used two python programs to be called by the main Jupyter Notebook Deep 
       - The last part executes the local QNetwork Loss function calculation (mse_loss) based on the "Target Q Values" and the "Expected Q values", it then executes a local QNetwork back propagation, and one step of the local QNetwork optimizer function. This part updates the local Q Network parameters (weighs).
       - The final part in this function is to perform a soft_update of the target QNetwork parameters (weights).
     - soft-update
-      - This process will update the local QNetwork parameters (weights) based on the Q Values (for target and local QNetworks) difference found between the two networks.
       - The target QNetwork weights are updated by adding a (TAU) proportion of the local QNetwork parameters to the (1-TAU) proportion of the target QNetwork parameters.
       - The "learn" and "soft_update" processes optimize the local QNetwork trying to reach the target QNetwork, but the target QNetwork parameters are adjusted by adding a small local QNetwork parameters contribution (TAU = 1e-3) to the target QNetwork parameters contribution defined by (1- TAU).
       - This process creates a moving target concept to avoid harmful correlations.
