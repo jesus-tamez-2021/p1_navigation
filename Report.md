@@ -51,3 +51,4 @@ And the QNetwork(s) structure are:
 - fc2_units = 64, activation function = RELU
 - fc3_units = 16, activation function = RELU
 - output size = 4, activation function = RELU
+- 
